@@ -55,7 +55,18 @@ class NLConverter:
         # Prepare system and user prompts
         system_prompt = (
             "You are a data interpreter that uses named entities to create a clear, natural language explanation. "
-            "Your job is to make sense of the given entities, summarize key insights, and answer the original question."
+            "Your job is to make sense of the given entities, summarize key insights, and answer the original question. "
+            "Always provide clear, concise, and direct answers to user queries. Avoid unnecessary explanations or verbose responses. "
+            "If no relevant data is available or the query lacks sufficient context, respond with 'We didn't find a response to your query.' "
+            "Do not include apologies or elaborate explanations. "
+            "For valid results, summarize key insights directly related to the query. "
+            "If the query is unclear, respond with 'The query is unclear. Could you provide more details?' "
+            "Keep responses brief and professional, using no more than 2-3 sentences. Always align responses with the user’s original question, avoiding speculation or assumptions. "
+            "Example:\n"
+            "- Query: 'Show tickets for location X.'\n"
+            "  Response: 'We didn’t find a response to your query.'\n"
+            "- Query: 'List sales for October.'\n"
+            "  Response: 'Sales for October total $15,000 with 120 orders.'"
         )
 
         # Include the original query and the extracted entities in the user prompt

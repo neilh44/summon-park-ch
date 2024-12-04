@@ -1,0 +1,72 @@
+2024-11-25 17:46:28,754 - __main__ - ERROR - Initialization error: 'st.secrets has no key "GROQ_API_KEY". Did you forget to add it to secrets.toml, mount it to secret directory, or the app settings on Streamlit Cloud? More info: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management'
+2024-11-25 17:54:28,012 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:54:28,657 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:54:28,671 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:54:29,471 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:54:29,486 - llm_service - INFO - Sending request to Groq API for query: how many tickets in proche design location
+2024-11-25 17:54:29,490 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:54:30,585 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:54:30,586 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:55:38,112 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:55:38,741 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:55:38,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:55:39,396 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:55:39,405 - llm_service - INFO - Sending request to Groq API for query: show me locationid of ticketid B7dEUvqzjr2eNFflOUVS
+2024-11-25 17:55:39,417 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:55:40,202 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:55:40,203 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:55:40,244 - llm_service - ERROR - Database error: no such column: l.locationid
+2024-11-25 17:55:40,261 - __main__ - ERROR - Error processing user input: Query Execution Error: no such column: l.locationid
+2024-11-25 17:56:31,551 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:32,156 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:32,188 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:32,767 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:32,772 - llm_service - INFO - Sending request to Groq API for query: how many tickets in porche design locations
+2024-11-25 17:56:32,785 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:33,889 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:33,890 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:56:54,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:55,278 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:55,294 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:55,874 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:55,897 - llm_service - INFO - Sending request to Groq API for query: show locationid for shiftid bFAqc0deOnhImpM5tXaS
+2024-11-25 17:56:55,903 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:56:56,681 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:56:56,688 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:56:56,717 - llm_service - ERROR - Database error: no such table: shifts
+2024-11-25 17:56:56,718 - __main__ - ERROR - Error processing user input: Query Execution Error: no such table: shifts
+2024-11-25 17:57:16,814 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:57:17,441 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:57:17,454 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:57:18,036 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:57:18,048 - llm_service - INFO - Sending request to Groq API for query: show ticketid of id bFAqc0deOnhImpM5tXaS
+2024-11-25 17:57:18,054 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:57:18,997 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:57:19,014 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:58:18,916 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:19,621 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:19,635 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:21,051 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:21,063 - llm_service - INFO - Sending request to Groq API for query: how many tickets in proche design locations
+2024-11-25 17:58:21,068 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:21,901 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:21,902 - llm_service - INFO - Received response from Groq API
+2024-11-25 17:58:38,884 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:39,564 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:39,583 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:40,159 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:40,175 - llm_service - INFO - Sending request to Groq API for query: show me active user status
+2024-11-25 17:58:40,179 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.groq.com:443
+2024-11-25 17:58:41,200 - urllib3.connectionpool - DEBUG - https://api.groq.com:443 "POST /openai/v1/chat/completions HTTP/11" 200 None
+2024-11-25 17:58:41,204 - llm_service - INFO - Received response from Groq API
+2024-11-26 15:55:10,505 - __main__ - INFO - Application startup initiated
+2024-11-26 15:55:10,604 - __main__ - INFO - Flask process started with PID: 22224
+2024-11-26 15:56:35,247 - __main__ - INFO - Application startup initiated
+2024-11-26 15:56:35,293 - __main__ - INFO - Flask process started with PID: 22331
+2024-11-26 15:57:43,666 - __main__ - INFO - Flask process started with PID: 22424
+2024-11-26 15:57:43,672 - __main__ - INFO - Streamlit process started with PID: 22425
+2024-11-26 15:57:44,105 - __mp_main__ - INFO - Starting Flask server on port 5000
+2024-11-26 15:57:45,317 - __mp_main__ - ERROR - Flask server failed to start: Command '['/Users/nileshhanotia/Projects/Parking_Valet/venv/bin/python3', '-m', 'flask', '--app', 'flask_app:create_flask_app()', 'run', '--port=5000', '--debug']' returned non-zero exit status 1.
+2024-11-26 15:59:11,872 - __main__ - INFO - Flask process started with PID: 22638
+2024-11-26 15:59:11,878 - __main__ - INFO - Streamlit process started with PID: 22639
+2024-11-26 15:59:12,342 - __mp_main__ - INFO - Starting Flask server on port 5000
